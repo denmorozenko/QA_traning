@@ -29,7 +29,7 @@ public class WebDriverFactory {
     }
 
     private static WebDriver setUpChromeInstance() {
-        System.setProperty(ChromeDriverService.CHROME_DRIVER_EXE_PROPERTY, "src/main/resources/chromedriver");
+        System.setProperty(ChromeDriverService.CHROME_DRIVER_EXE_PROPERTY, "src/main/resources/chromedriver.exe");
 
         DesiredCapabilities chromeDriverCapabilities = getChromeDesiredCapabilities();
 
